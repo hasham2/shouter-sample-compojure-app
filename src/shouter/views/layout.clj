@@ -19,3 +19,7 @@
 		      [:h1 {:class "container"} "SHOUTER"]]
 		[:div {:id "content" :class "container"} body]]))
 
+(defn four-oh-four [] 
+      (common "Page not Found"
+      	      [:div {:id "four-oh-four"}
+	      "The page you requested could not be found"]))
