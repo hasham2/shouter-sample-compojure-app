@@ -1,4 +1,4 @@
-(ns shouter.view.shouts
+(ns shouter.views.shouts
 	(:use [hiccup.core :only [html h]]
     	  [hiccup.page-helpers :only [doctype]]
 	  [hiccup.form-helpers :only [form-to label text-area submit-button]])
